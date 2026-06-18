@@ -92,6 +92,13 @@ Notes:
 docker compose exec backend node src/utils/seed.js
 ```
 
+## CI
+
+The repository includes a simple GitHub Actions workflow at [.github/workflows/ci.yml](/D:/Projects/Assignment/.github/workflows/ci.yml) that:
+
+- installs backend dependencies and runs backend syntax checks
+- installs frontend dependencies and runs the Vite production build
+
 ## API Endpoints
 
 ### Auth
